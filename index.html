@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doceria - Vai Que Engorda</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <h1>Doceria - Vai Que Engorda</h1>
+
+    Digite seu nome: <input type="text" id="nomeCliente"><br><br>
+
+    <input type="radio" name="produto" value="Doce de Leite" data-preco="4.50" data-emoji="🍬"> Doce de Leite – R$ 4,50<br>
+    <input type="radio" name="produto" value="Brigadeiro" data-preco="3.00" data-emoji="🍫"> Brigadeiro – R$ 3,00<br>
+    <input type="radio" name="produto" value="Beijinho" data-preco="3.50" data-emoji="🥥"> Beijinho – R$ 3,50<br>
+    <input type="radio" name="produto" value="Bolo de Pote" data-preco="7.00" data-emoji="🍰"> Bolo de Pote – R$ 7,00<br><br>
+
+    Quantidade: <input type="number" id="quantidadeCliente" value="1"><br><br>
+    
+    <button onclick="finalizarCompra()">Finalizar compra</button>
+
+    <div id="resumoCompra"></div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

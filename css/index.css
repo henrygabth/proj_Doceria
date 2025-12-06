@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: #f0ffff;
+}
+
+h1 {
+    text-align: center;
+    color: #4169E1;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4169E1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#resumoCompra {
+    margin-top: 30px;
+    border-top: 2px dashed #4169E1;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.imagem-doce {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#resumoHTML{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    text-align: center;
+    color: #4169E1;
+}
